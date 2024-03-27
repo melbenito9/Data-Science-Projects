@@ -1,3 +1,4 @@
+#loading necessary packages
 library(mice)
 library(dplyr)
 library(tidyverse)
@@ -23,7 +24,7 @@ train_data <- read.csv(file = "~/Downloads/Train.csv")
 test_data <- read.csv(file = "~/Downloads/Test.csv")
 
 #glimpse(train_data)
-# summary(train_data)
+#summary(train_data)
 skim(train_data)
 
 ggplot(train_data)+geom_point(mapping = aes(y=revenue, x=custId))
