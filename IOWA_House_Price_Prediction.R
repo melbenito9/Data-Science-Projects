@@ -1,4 +1,4 @@
-#HOMEWORK 5 - Mel Benito
+#Mel Benito
 
 #packages used
 library(caret)
